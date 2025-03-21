@@ -2,10 +2,15 @@
 layout: default
 ---
 
-# Energy Cost Required for Mining a Single Bitcoin (Historical Analysis and Future Projections)
+# Energy Cost Required for Mining a Single Bitcoin <br/> - Historical Analysis and Future Projections
+
+Authors:
+------
+* __[The Hyperlabs - Those who build on Bitcoin, sculpt the currency of the future.](https://thehyperlabs.com)__
 
 **Please note that this analysis is for educational purposes only and should never be treated as financial advice.**
 
+# Introduction
 Bitcoin's value is closely connected to the energy consumed during its mining process. This analysis examines the historical energy costs associated with mining a single bitcoin and forecasts future trends in energy consumption. Understanding these energy dynamics can offer valuable insights into the potential long-term impacts on Bitcoin pricing.
 
 By utilizing electricity consumption as a fundamental physical metric, we establish a concrete basis for evaluating Bitcoin’s intrinsic value. This approach allows us to explore how energy market fluctuations and physical constraints could influence future valuations, providing a clearer picture of the sustainability and economic viability of Bitcoin mining operations.
