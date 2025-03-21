@@ -9,7 +9,8 @@ Authors:
 * __[The Hyperlabs - Those who build on Bitcoin, sculpt the currency of the future.](https://thehyperlabs.com)__
 
 Github:
-* __[https://github.com/EnergyCostModel/model](https://github.com/EnergyCostModel/model)
+------
+* __[https://github.com/EnergyCostModel/model](https://github.com/EnergyCostModel/model)__
 
 **Please note that this analysis is for educational purposes only and should never be treated as financial advice.**
 
