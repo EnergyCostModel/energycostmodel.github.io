@@ -4,6 +4,9 @@ layout: default
 # Energy Cost Required for Mining a Single Bitcoin <br/> - Historical Analysis and Future Projections
 21/03/2025
 
+[Contact Form](./contact.html)
+------
+
 Authors:
 ------
 * __[The Hyperlabs - Those who build on Bitcoin, sculpt the currency of the future.](https://thehyperlabs.com)__
