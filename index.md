@@ -184,3 +184,19 @@ Zooming out to view long-term trends:
 ![alt text](./assets/images/miningcostforecast3.png)
 
 ![alt text](./assets/images/miningcostforecast4.png)
+
+# Comparing to Stock-to-Flow (S2F)
+
+The Stock-to-Flow (S2F) model assesses Bitcoin’s scarcity by comparing existing supply ("stock") to new annual issuance ("flow"). Popularized by PlanB, this model argues that Bitcoin's value increases predictably as its issuance rate declines every four years during halving events. 
+1. The Bitcoin Energy Cost Model presented emphasizes mining efficiency, technological evolution, and energy prices to analyze Bitcoin’s valuation sustainability. Comparatively, the Stock-to-Flow (S2F) model centers around Bitcoin’s scarcity dynamics, highlighting halving events and reduced issuance rates to forecast future prices. 
+2. The Stock-to-Flow (S2F) model uses arbitrary "magic numbers" within its equations, leading to speculative price predictions. Conversely, our Bitcoin Energy Cost Model is grounded in physics-based fundamentals, relying on measurable, transparent parameters like miner efficiency improvements, actual hardware performance, and real-world energy consumption
+
+![alt text](./assets/images/miningcostforecaststf1.png)
+
+
+# Price Channels Defined by Bitcoin Electricity Cost (Hypothesis)
+Our hypothesis suggests Bitcoin's price channels are established roughly 60 days after each halving event, as determined by the Bitcoin Electricity Cost Model. These channels form economic boundaries within which Bitcoin’s market price consistently oscillates.
+
+![alt text](./assets/images/miningcostforecaststf2.png)
+
+![alt text](./assets/images/miningcostforecaststf3.png)
