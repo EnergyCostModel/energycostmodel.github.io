@@ -2,16 +2,18 @@
 layout: default
 ---
 # Energy Cost Required for Mining a Single Bitcoin <br/> - Historical Analysis and Future Projections
-[Contact Form](./contact.html)
-------
 
-Authors:
-------
-* __[The Hyperlabs - Those who build on Bitcoin, sculpt the currency of the future.](https://thehyperlabs.com)__
+Authors & Code:
+-------
+* [The Hyperlabs](https://thehyperlabs.com)  - Those who build on Bitcoin, sculpt the currency of the future.
+* [Contact](./contact.html) - Drop us a message
+* [Code](https://github.com/EnergyCostModel/model) - Model is open-sourced on GitHub
 
-Github:
-------
-* __[https://github.com/EnergyCostModel/model](https://github.com/EnergyCostModel/model)__
+|Release Date | Note|
+|:--------------------|:-------------------------------------|
+|21 Mar 2025  | Initial Version |
+|25 Mar 2025  | S2F |
+|26 Mar 2025  | Price Channels |
 
 **Please note that this analysis is for educational purposes only and should never be treated as financial advice.**
 
