@@ -197,6 +197,6 @@ The Stock-to-Flow (S2F) model assesses Bitcoin’s scarcity by comparing existin
 # Price Channels Defined by Bitcoin Electricity Cost (Hypothesis)
 Our hypothesis suggests Bitcoin's price channels are established roughly 60 days after each halving event, as determined by the Bitcoin Electricity Cost Model. These channels form economic boundaries within which Bitcoin’s market price consistently oscillates.
 
-![alt text](./assets/images/miningcostforecaststf2.png)
+![alt text](./assets/images/miningcostforecaststf4.png)
 
-![alt text](./assets/images/miningcostforecaststf3.png)
+![alt text](./assets/images/miningcostforecaststf5.png)
