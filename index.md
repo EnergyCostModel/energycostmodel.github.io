@@ -14,6 +14,7 @@ Authors & Code:
 |21 Mar 2025  | Initial Version |
 |25 Mar 2025  | S2F |
 |26 Mar 2025  | Price Channels |
+|18 Apr 2025  | Data Update |
 
 **Please note that this analysis is for educational purposes only and should never be treated as financial advice.**
 
