@@ -17,6 +17,7 @@ Authors & Code:
 |18 Apr 2025  | Data Update |
 |27 Apr 2025  | Data Update |
 |4 May 2025  | Data Update |
+|17 May 2025  | Daily frequency sampling|
 
 **Please note that this analysis is for educational purposes only and should never be treated as financial advice.**
 
