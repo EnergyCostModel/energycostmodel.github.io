@@ -1,11 +1,10 @@
 ---
 layout: default
-
-# Bitcoin Mining Energy Cost Analysis: Historical Data & Future Projections
+-------
 
 # Energy Cost Required for Mining a Single Bitcoin <br/> - Historical Analysis and Future Projections
--------
-# Authors & Code
+
+### Authors & Code:
 This is [https://energycostmodel.com/](https://energycostmodel.com/)
 is a work in progress. We are continuously updating and improving the model, and we welcome any feedback or suggestions you may have. Please feel free to reach out to us with your thoughts or ideas.
 
