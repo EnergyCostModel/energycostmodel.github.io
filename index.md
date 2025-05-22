@@ -3,6 +3,13 @@ layout: default
 ---
 # Energy Cost Required for Mining a Single Bitcoin <br/> - Historical Analysis and Future Projections
 
+This study presents a comprehensive analysis of the energy costs associated with mining a single Bitcoin, offering both historical insights and future projections. By leveraging electricity consumption as a fundamental physical metric, we establish a tangible basis for evaluating Bitcoin's intrinsic value. This approach facilitates an exploration of how fluctuations in energy markets and physical constraints could influence future valuations, providing a clearer perspective on the sustainability and economic viability of Bitcoin mining operations.
+
+Our methodology involves normalizing energy prices by the Consumer Price Index (CPI) to isolate inflationary components, thereby enabling a more accurate assessment of underlying trends and variable fluctuations. We examine the evolution of mining hardware efficiency, measured in Joules per Terahash (J/TH), highlighting the transition from CPU and GPU mining to the adoption of specialized ASIC hardware. This progression underscores the significant improvements in energy efficiency over time.
+
+Furthermore, we analyze the implications of Bitcoin's production cost—primarily energy consumption and hardware expenses—on its market price. The study considers scenarios where prolonged periods of unprofitable mining could lead to miner attrition, subsequently affecting the global hashrate and mining difficulty. Such dynamics are crucial for understanding the potential "floor" price of Bitcoin and the broader economic factors influencing the cryptocurrency's valuation.
+
+
 ### Authors & Code:
 This is [https://energycostmodel.com/](https://energycostmodel.com/)
 is a work in progress. We are continuously updating and improving the model, and we welcome any feedback or suggestions you may have. Please feel free to reach out to us with your thoughts or ideas.
