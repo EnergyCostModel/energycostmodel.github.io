@@ -18,6 +18,7 @@ Authors & Code:
 |27 Apr 2025  | Data Update |
 |4 May 2025  | Data Update |
 |17 May 2025  | Daily frequency sampling|
+|22 May 2025  | Data Update |
 
 **Please note that this analysis is for educational purposes only and should never be treated as financial advice.**
 
@@ -160,11 +161,7 @@ allowing us to make this kind of CPI forecast:
 
 When we divide energy prices by the Consumer Price Index (CPI), we effectively remove or isolate the inflationary component from the overall energy price data. This process normalizes the prices, allowing us to clearly identify and analyze the underlying trends, seasonal patterns, and variable (non-inflationary) fluctuations.
 
-![alt text](./assets/images/electricityprices2.png)
-
 Facebook Prophet [https://facebook.github.io/prophet/](https://facebook.github.io/prophet/) is a forecasting tool that uses an additive model combining trend, seasonal, and residual (noise) components to predict future values of time series data. In our approach, we apply Facebook Prophet specifically to energy prices after they've been normalized.
-
-![alt text](./assets/images/electricitypricesforecast2.png)
 
 By multiplying the CPI forecast (which represents anticipated inflation) by the energy price forecast derived from Facebook Prophet (which captures the underlying trend and seasonality of energy prices after removing inflation), we reconstruct a realistic projection of future commercial energy prices.
 
