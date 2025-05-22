@@ -1,10 +1,14 @@
 ---
 layout: default
----
-# Energy Cost Required for Mining a Single Bitcoin <br/> - Historical Analysis and Future Projections
 
-Authors & Code:
+# Bitcoin Mining Energy Cost Analysis: Historical Data & Future Projections
+
+# Energy Cost Required for Mining a Single Bitcoin <br/> - Historical Analysis and Future Projections
 -------
+# Authors & Code
+This is [https://energycostmodel.com/](https://energycostmodel.com/)
+is a work in progress. We are continuously updating and improving the model, and we welcome any feedback or suggestions you may have. Please feel free to reach out to us with your thoughts or ideas.
+
 * [The Hyperlabs](https://thehyperlabs.com)  - Those who build on Bitcoin, sculpt the currency of the future.
 * [Contact](./contact.html) - Drop us a message
 * [Code](https://github.com/EnergyCostModel/model) - Model is open-sourced on GitHub
@@ -203,3 +207,4 @@ Our hypothesis suggests Bitcoin's price channels are established roughly 60 days
 ![alt text](./assets/images/miningcostforecaststf4.png)
 
 ![alt text](./assets/images/miningcostforecaststf5.png)
+
