@@ -1,7 +1,6 @@
 ---
 layout: default
--------
-
+---
 # Energy Cost Required for Mining a Single Bitcoin <br/> - Historical Analysis and Future Projections
 
 ### Authors & Code:
