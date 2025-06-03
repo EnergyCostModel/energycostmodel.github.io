@@ -28,6 +28,7 @@ is a work in progress. We are continuously updating and improving the model, and
 |4 May 2025  | Data Update |
 |17 May 2025  | Daily frequency sampling|
 |22 May 2025  | Data Update |
+|6 Jun 2025  | Data Update |
 
 **Please note that this analysis is for educational purposes only and should never be treated as financial advice.**
 
