@@ -1,37 +1,102 @@
-title: Energy Cost Required for Mining a Single Bitcoin # name of the site
-author: The Hyperlabs # name of site's author
-email: pawel@thehyperlabs.com # email of site's author
-url: https://energycostmodel.com # root address of the site
-baseurl: "" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
-description: > # description of the site (multiple lines allowed)
-  By utilizing electricity consumption as a fundamental physical metric, we establish a concrete basis for evaluating Bitcoin’s intrinsic value.
+#-------------------------------
+# General Site Settings
+title: Energy Cost Required for Mining a Single Bitcoin
+logo: "logo.png"
+description: y utilizing electricity consumption as a fundamental physical metric, we establish a concrete basis for evaluating Bitcoin’s intrinsic value.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://energycostmodel.com" # the base hostname & protocol for your site, e.g. http://example.com
 
-permalink: /:slug.html
+favicon: "logo.png" 
 
-favicon: "logo.png" # name+extension of favicon (which must be put on the root folder)
-# goat_counter: "yoursitename" # put your GoatCounter name if you want to use GoatCounter analytics
+#-------------------------------
+# Author Settings
+author:
+  name: The Hyperlabs
+  bio: Those who build on Bitcoin, sculpt the currency of the future.
+  avatar: 'logo.png'
 
-remote_theme: riggraz/no-style-please # if you are using GitHub Pages, change it to remote_theme: riggraz/no-style-please
+social:
+- {icon: "ion-logo-linkedin", label: Linkedin, link: "https://www.linkedin.com/in/kaplanski/"}
+- {icon: "ion-logo-twitter", label: Twitter, link: "https://twitter.com/Pawel_Kaplanski"}
+- {icon: "ion-logo-github", label: Github, link: "https://github.com/sonofsatoshi"}
+- {icon: "ion-ios-bulb", label: Patents, link: "https://patents.google.com/?q=(kaplanski+pawel)&oq=kaplanski+pawel"}
+- {icon: "ion-ios-school", label: Scholar, link: "https://scholar.google.com/citations?user=Hu5Wzb0AAAAJ"}
 
-theme_config:
-  appearance: "auto" # can be "light", "dark" or "auto"
-  back_home_text: ".." # customize text for homepage link in post layout
-  date_format: "%Y-%m-%d" # customize how date is formatted
-  show_description: false # show blog description in home page
-  lowercase_titles: true # show titles in lowercase in lists
+# Example of adding a new link to the author section and footer - {icon: "ion-logo-github", label: Github, link: "https://github.com"}
+# Other icons can be found at https://ionicons.com/v4/
+
+#-------------------------------
+# Hero Settings
+hero:
+  hero__title: "Power Shift: The Rise of Thinking Electricity"
+  hero__description: It’s not just electricity anymore—it’s the lifeblood of smart machines and unstoppable money. Enter the age where every spark counts for something bigger.
+  hero__image: 'logo.png'
+
+
+#-------------------------------
+# Newsletter (_includes/footer-widgets/widget-subscribe.html)
+mailchimp: false # To enable the mailchimp form, use the value 'true'. To disable the form, use the value 'false' or leave the field blank.
+mailchimp__title: Get interesting news # Add your Title
+mailchimp__text: Subscribe to my newsletter. # Add your description.
+mailchimp__identifier: # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
+mailchimp__button__text: Join # Add your button text
+
+
+#-------------------------------
+# Contact Settings
+contact:
+  email: pawel@thehyperlabs.com # Add your email for contact form
+  description: You can contact us through this form. 
+
+# NOTE
+# Joseph comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want.
+
+
+#-------------------------------
+# Comment Section (Disqus)
+disqus-identifier: kaplanski-ai # add your shortname for Disqus Comment. For example anvodstudio-demo
+
+
+#-------------------------------
+# Google Analytics
+google-analytics: G-S0GNR5QN6P # Add your identifier. For example UA-99631805-1.
+
+
+#-------------------------------
+# Build Settings
+markdown: kramdown
+permalink: /:title
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jektex
+
+paginate: 5
+paginate_path: "/page/:num"
+
+# Pages Path
+defaults:
+  - scope:
+      path: '_pages'
+    values:
+      permalink: /:basename:output_ext
+
+include:
+  - _pages
+
+# Tags
+tag_page_dir:         tag
+tag_page_layout:      tag_page
+tag_permalink_style:  /:title
 
 sass:
+  sass_dir: _sass
   style: compressed
-
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jektex
 
 jektex:
   cache_dir: ".jektex-cache"
   ignore: ["*.xml"]
-  silent: false
+  silent: true
   macros:
     - ["\\Q", "\\mathbb{Q}"]
     - ["\\C", "\\mathbb{C}"]

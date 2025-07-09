@@ -1,5 +1,9 @@
 ---
-layout: default
+layout: post
+title:  Energy Cost Required for Mining a Single Bitcoin - Historical Analysis and Future Projections
+description: By utilizing electricity consumption as a fundamental physical metric, we establish a concrete basis for evaluating Bitcoin’s intrinsic value. This approach allows us to explore how energy market fluctuations and physical constraints could influence future valuations, providing a clearer picture of the sustainability and economic viability of Bitcoin mining operations...
+date:   2025-03-21 19:30:00 +11:00
+tags:   [bitcoin, energy]
 ---
 # Energy Cost Required for Mining a Single Bitcoin <br/> - Historical Analysis and Future Projections
 
@@ -15,7 +19,7 @@ This is [https://energycostmodel.com/](https://energycostmodel.com/)
 is a work in progress. We are continuously updating and improving the model, and we welcome any feedback or suggestions you may have. Please feel free to reach out to us with your thoughts or ideas.
 
 * [The Hyperlabs](https://thehyperlabs.com)  - Those who build on Bitcoin, sculpt the currency of the future.
-* [Contact](./contact.html) - Drop us a message
+* [Contact](./contact/) - Drop us a message
 * [Code](https://github.com/EnergyCostModel/model) - Model is open-sourced on GitHub
 
 |Release Date | Note|
@@ -71,7 +75,7 @@ Miner efficiency is measured in Joules per Terahash, indicating how many trillio
 
 We can clearly observe an exponential downward trend.
 
-![alt text](./assets/images/efficiency1.png)
+![alt text](./images/efficiency1.png)
 
 
 ## Global Hashrate
@@ -79,18 +83,18 @@ Each miner contributes computational power, known as "hashrate," to secure the B
 
 [^onchain1]: Onchain data was downloaded from [https://www.blockchain.com/explorer/charts/hash-rate](https://www.blockchain.com/explorer/charts/hash-rate). 
 
-![alt text](./assets/images/hashrate1.png)
+![alt text](./images/hashrate1.png)
 
 By multiplying the global hashrate with miner efficiency, we can calculate the total Bitcoin-network's energy consumption in Watts.
 
 $$ \text{Power Consumption}(W) = \text{Miner Efficiency} \left(\frac{J}{TH}\right) \times \text{Global Hashrate} \left(\frac{TH}{s}\right) $$
 
-![alt text](./assets/images/powerconsumption1.png)
+![alt text](./images/powerconsumption1.png)
 
 ## Miner Rewards
 Successful miners receive both block rewards and transaction fees. Block rewards follow a predetermined schedule established by Satoshi Nakamoto, starting at 50 Bitcoins per block initially. This reward is programmed to halve approximately every four years—an event known as the "halving"—to systematically decrease the rate at which new Bitcoins enter circulation. The first halving occurred in 2012, reducing the block reward to 25 Bitcoins. Subsequent halvings took place in 2016 (12.5 Bitcoins), 2020 (6.25 Bitcoins) and 2024 (3.125 Bitcoins), with future halvings continuing approximately every four years. Ultimately, due to this geometric series of reductions, the total number of Bitcoins that will ever exist is capped at precisely 21 million coins, a fixed supply limit integral to Bitcoin's value proposition. After this cap is reached—estimated to occur around the year 2140—miners will rely exclusively on transaction fees as their incentive.
 
-![alt text](./assets/images/minedbitcoin1.png)
+![alt text](./images/minedbitcoin1.png)
 
 To calculate the total daily miner block rewards for all miners on a specific day, we multiply the block reward by the average number of blocks per day. Bitcoin aims to produce a block approximately every 10 minutes, resulting in around 144 blocks per day.
 
@@ -101,7 +105,7 @@ Plugging in the current reward:
 $$ 144 \text{ blocks/day} \times 3.125 \text{ BTC/block} = 450 \text{ BTC/day} $$
 
 
-![alt text](./assets/images/blockrewards1.png)
+![alt text](./images/blockrewards1.png)
 
 Transaction fees are payments made by network users when publishing transactions, whether for Bitcoin transfers, document timestamping, Bitcoin Ordinals, BRC-20 tokens, or other purposes. Fee amounts are market-driven, fluctuating based on network congestion. During periods of high activity, users compete for limited block space by offering higher transaction fees, incentivizing miners to prioritize their transactions for inclusion in the next block. As block rewards continue to halve, transaction fees are expected to become an increasingly significant component of miner revenue, ultimately becoming the primary incentive for securing the Bitcoin network after the total supply limit of 21 million Bitcoins has been reached.
 
@@ -109,7 +113,7 @@ Recently, innovative protocols such as Bitcoin Ordinals have introduced new use 
 
 [^onchain2]: Onchain data was downloaded from [https://www.blockchain.com/explorer/charts/transaction-fees](https://www.blockchain.com/explorer/charts/transaction-fees). 
 
-![alt text](./assets/images/transactionfees1.png)
+![alt text](./images/transactionfees1.png)
 
 ## Electricity Price
 Miners seek the most cost-effective energy sources available because electricity represents their most significant operational expense. Reducing this cost directly increases profitability, particularly during periods when Bitcoin prices or mining difficulty levels fluctuate. Consequently, miners strategically locate mining operations in regions offering lower energy costs, favorable regulations, or renewable energy sources, such as hydropower, wind, solar, or geothermal energy, to further optimize expenses and improve environmental sustainability.
@@ -118,16 +122,16 @@ We are specifically interested in the average U.S. electricity prices for commer
 
 We will use electricity price data sourced from the **U.S. Energy Information Administration (EIA)** ([https://www.eia.gov/](https://www.eia.gov/)), as it provides accurate, comprehensive, and regularly updated information on average electricity rates for commercial and industrial consumers across various U.S. states.
 
-![alt text](./assets/images/electricityprices1.png)
+![alt text](./images/electricityprices1.png)
 
 ## Bitcoin Electricity Cost
 To calculate the electricity cost per bitcoin, we divide the daily global energy consumption of the Bitcoin network by daily miner rewards (block rewards plus transaction fees). We are using commercial energy prices.
 
 $$ \text{Cost Of Mining A Single Bitcoin}(USD) = \frac{ \frac{\text{Power Consumption} (W) \times 24}{1000} \times \frac{\text{Electricity Price} \left(\frac{cent}{kWh}\right)}{100} }{\text{Daily Block Rewards}+\text{Daily Transaction Fees}}$$
 
-![alt text](./assets/images/miningcost1.png)
+![alt text](./images/miningcost1.png)
 
-![alt text](./assets/images/miningcost2.png)
+![alt text](./images/miningcost2.png)
 
 # Forecasting
 For our forecasting analysis, we employ a combination of time series models to project future Bitcoin energy costs. 
@@ -147,13 +151,13 @@ To forecast energy consumption, we adapt a logistic function with an upper asymp
 
 It is important to note that unforeseen events ("Black Swan" events), such as China's mining ban in 2021, may cause sudden drops or fluctuations in energy consumption that our models cannot predict.
 
-![alt text](./assets/images/powerconsumptionforecast1.png)
+![alt text](./images/powerconsumptionforecast1.png)
 
 
 # Forecasting Transaction Fees
 Another component closely tied to Bitcoin adoption is transaction fees. Given that each Bitcoin block is limited to approximately 1 MB of data, increased adoption of Bitcoin as a medium of exchange leads to higher transaction fees denominated in USD. However, as the BTC price increases, these fees expressed in terms of BTC may not rise significantly. We will model transaction fees as fluctuations (noise) around a sigmoid function anchored to the current value of the daily transaction fees.
 
-![alt text](./assets/images/transactionfeesforecast1.png)
+![alt text](./images/transactionfeesforecast1.png)
 
 
 # Forecasting Energy Prices
@@ -162,14 +166,14 @@ Energy prices inherently include inflation. To accurately forecast energy prices
 
 We use long term CPI data from [https://inflationdata.com/Inflation/Consumer_Price_Index/HistoricalCPI.aspx](https://inflationdata.com/Inflation/Consumer_Price_Index/HistoricalCPI.aspx)
 
-![alt text](./assets/images/cpi1.png)
+![alt text](./images/cpi1.png)
 
 We forecast CPI using a trend line fitted specifically to the historical data between 1980 and 2000 because this period represents relatively stable and consistent inflationary conditions, free from extreme economic disruptions like those observed during earlier decades (such as the oil crisis of the 1970s) or later significant events (such as the 2008 financial crisis or recent pandemic-related volatility).
 
-![alt text](./assets/images/cpi2.png)
+![alt text](./images/cpi2.png)
 
 allowing us to make this kind of CPI forecast:
-![alt text](./assets/images/cpiforecast1.png)
+![alt text](./images/cpiforecast1.png)
 
 When we divide energy prices by the Consumer Price Index (CPI), we effectively remove or isolate the inflationary component from the overall energy price data. This process normalizes the prices, allowing us to clearly identify and analyze the underlying trends, seasonal patterns, and variable (non-inflationary) fluctuations.
 
@@ -179,7 +183,7 @@ By multiplying the CPI forecast (which represents anticipated inflation) by the 
 
 In other words, the CPI forecast reintroduces inflation back into our previously normalized energy price forecast. This combination ensures that our final prediction reflects both inflationary trends and seasonal fluctuations specific to the energy market. 
 
-![alt text](./assets/images/electricitypricesforecast1.png)
+![alt text](./images/electricitypricesforecast1.png)
 
 
 # Electricity Cost of A Single Bitcoin Mining – Forecast
@@ -190,15 +194,15 @@ By combining the individual forecasts for energy consumption, transaction fees, 
 - **Transaction Fees**: Forecasted by applying fluctuations around a sigmoid trend, capturing both long-term adoption effects and short-term variability in network demand.
 - **Energy Prices**: Forecasted by first removing inflation through CPI normalization, then reintroducing inflation using projected CPI trends combined with seasonality and underlying patterns identified by the Facebook Prophet forecasting model.
 
-![alt text](./assets/images/miningcostforecast1.png)
+![alt text](./images/miningcostforecast1.png)
 
-![alt text](./assets/images/miningcostforecast2.png)
+![alt text](./images/miningcostforecast2.png)
 
 Zooming out to view long-term trends:
 
-![alt text](./assets/images/miningcostforecast3.png)
+![alt text](./images/miningcostforecast3.png)
 
-![alt text](./assets/images/miningcostforecast4.png)
+![alt text](./images/miningcostforecast4.png)
 
 # Comparing to Stock-to-Flow (S2F)
 
@@ -212,7 +216,6 @@ The Stock-to-Flow (S2F) model assesses Bitcoin’s scarcity by comparing existin
 # Price Channels Defined by Bitcoin Electricity Cost (Hypothesis)
 Our hypothesis suggests Bitcoin's price channels are established roughly 60 days after each halving event, as determined by the Bitcoin Electricity Cost Model. These channels form economic boundaries within which Bitcoin’s market price consistently oscillates.
 
-![alt text](./assets/images/miningcostforecaststf4.png)
+![alt text](./images/miningcostforecaststf4.png)
 
-![alt text](./assets/images/miningcostforecaststf5.png)
-
+![alt text](./images/miningcostforecaststf5.png)

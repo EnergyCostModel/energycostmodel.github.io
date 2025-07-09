@@ -1,13 +1,9 @@
-# frozen_string_literal: true
-
-source "https://rubygems.org"
-
-gem "kramdown-parser-gfm"
-gem "webrick"
+source 'https://rubygems.org'
+gem "bundler"
 gem "csv"
-gem "bigdecimal"
 gem "base64"
-gem "logger"
+gem "jekyll"
+gem "jekyll-paginate"
+gem "jekyll-sitemap"
+gem "kramdown-parser-gfm"
 gem "jektex"
-
-gemspec
