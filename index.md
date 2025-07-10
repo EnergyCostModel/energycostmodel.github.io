@@ -213,7 +213,7 @@ The Stock-to-Flow (S2F) model assesses Bitcoin’s scarcity by comparing existin
 1. The Bitcoin Energy Cost Model presented emphasizes mining efficiency, technological evolution, and energy prices to analyze Bitcoin’s valuation sustainability. Comparatively, the Stock-to-Flow (S2F) model centers around Bitcoin’s scarcity dynamics, highlighting halving events and reduced issuance rates to forecast future prices. 
 2. The Stock-to-Flow (S2F) model uses arbitrary "magic numbers" within its equations, leading to speculative price predictions. Conversely, our Bitcoin Energy Cost Model is grounded in physics-based fundamentals, relying on measurable, transparent parameters like miner efficiency improvements, actual hardware performance, and real-world energy consumption
 
-![alt text](./assets/images/miningcostforecaststf1.png)
+![alt text](./images/miningcostforecaststf1.png)
 
 
 # Price Channels Defined by Bitcoin Electricity Cost (Hypothesis)
@@ -222,3 +222,6 @@ Our hypothesis suggests Bitcoin's price channels are established roughly 60 days
 ![alt text](./images/miningcostforecaststf4.png)
 
 ![alt text](./images/miningcostforecaststf5.png)
+
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/x-mathjax-config"> MathJax.Hub.Config({ tex2jax: {inlineMath: [['$', '$']]}, messageStyle: "none" });</script>
