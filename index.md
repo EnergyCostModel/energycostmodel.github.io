@@ -72,6 +72,9 @@ Miner efficiency is measured in Joules per Terahash, indicating how many trillio
 | 2020-03-01 | ASIC – Antminer S19 Pro (Bitmain)    |              29.5   |([The Future of Bitcoin Mining Efficiency: A Deep Dive into ASIC Evolution - D-Central](https://d-central.tech/the-future-of-bitcoin-mining-efficiency-a-deep-dive-into-asic-evolution/#:~:text=ASIC%20Antminer%20S15%20%20Bitmain,Not%20Available%20Not%20Available%2021))  |
 | 2022-07-01 | ASIC – Antminer S19 XP (Bitmain)     |              21     |([The Future of Bitcoin Mining Efficiency: A Deep Dive into ASIC Evolution - D-Central](https://d-central.tech/the-future-of-bitcoin-mining-efficiency-a-deep-dive-into-asic-evolution/#:~:text=ASIC%20Antminer%20S17%20%20Bitmain,Not%20Available%20Not%20Available%2021))    |
 | 2023-08-01 | ASIC – Antminer S21 (Bitmain)        |              16     |([BITMAIN Releases ANTMINER S21 Hyd. & S21 with an Outstanding ...](https://www.bitmain.com/news-detail/bitmain-releases-antminer-s21-hyd--s21-with-an-outstanding-energy-efficiency-of-16-jt-300#:~:text=BITMAIN%20Releases%20ANTMINER%20S21%20Hyd,BITMAIN%20announced)) |
+| 2024-10-01 | ASIC – Antminer S21 XP (Bitmain)        |              13.5     |https://shop.bitmain.com/product/detail?pid=00020240628121614609dw7bmIit06FD |
+
+The table above shows the evolution of miner efficiency over time, with the latest Antminer S21 XP achieving an impressive 13.5 J/TH. This represents a significant improvement in energy efficiency compared to earlier models, such as the Antminer S9, which had an efficiency of 96 J/TH.
 
 We can clearly observe an exponential downward trend.
 
