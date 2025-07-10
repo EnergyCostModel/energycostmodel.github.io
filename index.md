@@ -21,6 +21,7 @@ is a work in progress. We are continuously updating and improving the model, and
 * [The Hyperlabs](https://thehyperlabs.com)  - Those who build on Bitcoin, sculpt the currency of the future.
 * [Contact](./contact/) - Drop us a message
 * [Code](https://github.com/EnergyCostModel/model) - Model is open-sourced on GitHub
+* [PDF](./index.pdf) - Download the PDF version of this analysis
 
 |Release Date | Note|
 |:--------------------|:-------------------------------------|
@@ -76,7 +77,7 @@ Miner efficiency is measured in Joules per Terahash, indicating how many trillio
 
 
 We can clearly observe an exponential downward trend.
-
+ 
 ![alt text](./images/efficiency1.png)
 
 
