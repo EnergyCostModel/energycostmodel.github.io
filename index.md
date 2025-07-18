@@ -36,6 +36,7 @@ is a work in progress. We are continuously updating and improving the model, and
 |6 Jun 2025  | Data Update |
 |12 Jun 2025  | Data Update |
 |10 Jul 2025  | Antminer S21 XP - 13.5 J/TH + Gaussian weights on rolling efficiency |
+|18 Jul 2025  | Data Update |
 
 **Please note that this analysis is for educational purposes only and should never be treated as financial advice.**
 
