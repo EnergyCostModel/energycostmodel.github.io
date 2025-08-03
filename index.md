@@ -89,6 +89,8 @@ We know that the miners have their livespan and are replaced by newer, more effi
 
 Afer applying the Gaussian weights, we can see that the miner efficiency is still improving, but at a slower rate than before. 
 
+$$ E_{rolled}(t) = \frac{\sum_{i=0}^{3*365-1} w_i \cdot E(t-i)}{\sum_{i=0}^{3*365-1} w_i} $$
+
 ![alt text](./images/efficiency3.png)
 
 
