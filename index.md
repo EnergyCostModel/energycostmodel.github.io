@@ -37,6 +37,7 @@ is a work in progress. We are continuously updating and improving the model, and
 |12 Jun 2025  | Data Update |
 |10 Jul 2025  | Antminer S21 XP - 13.5 J/TH + Gaussian weights on rolling efficiency |
 |18 Jul 2025  | Data Update |
+|2 Aug 2025  | Data Update |
 
 **Please note that this analysis is for educational purposes only and should never be treated as financial advice.**
 
@@ -80,6 +81,15 @@ Miner efficiency is measured in Joules per Terahash, indicating how many trillio
 We can clearly observe an exponential downward trend.
  
 ![alt text](./images/efficiency1.png)
+
+
+We know that the miners have their livespan and are replaced by newer, more efficient models. To account for this, we apply a Gaussian distribution to the historical efficiency data over the period of three years, assigning more weight to recent hardware releases while still considering older models. This approach allows us to create a more realistic representation of miner efficiency over time.
+
+![alt text](./images/weights.png)
+
+Afer applying the Gaussian weights, we can see that the miner efficiency is still improving, but at a slower rate than before. 
+
+![alt text](./images/efficiency3.png)
 
 
 ## Global Hashrate
