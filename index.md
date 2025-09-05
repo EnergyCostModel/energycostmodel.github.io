@@ -62,7 +62,7 @@ In this educational analysis, we'll explore:
 
 Here's a simple concept that unlocks Bitcoin economics: **It costs real money (in electricity) to mine Bitcoin**. 
 
-Imagine you run a gold mine. If it costs you \$1,500 to extract an ounce of gold, you won't sell it for \$1,200—you'd lose money. The same logic applies to Bitcoin mining. If it costs \$30,000 in electricity to mine one Bitcoin, that creates a natural price floor. Miners won't continue operating at a loss indefinitely.
+Imagine you run a gold mine. If it costs you USD 1,500 to extract an ounce of gold, you won't sell it for USD 1,200—you'd lose money. The same logic applies to Bitcoin mining. If it costs USD 30,000 in electricity to mine one Bitcoin, that creates a natural price floor. Miners won't continue operating at a loss indefinitely.
 
 This relationship between energy costs and Bitcoin's price isn't just theoretical—it's observable in the data. During market crashes, Bitcoin's price often finds support near the average cost of production. When prices soar far above production costs, we often see speculative bubbles that eventually correct.
 
@@ -298,18 +298,18 @@ If mining Bitcoin is a business, electricity is its biggest operating cost—oft
 Miners are economic nomads, setting up operations wherever electricity is cheapest:
 
 **Top Mining Locations and Why:**
-- **Iceland**: Geothermal power + natural cooling = \$0.03/kWh
-- **Texas, USA**: Wind power surplus at night = \$0.02-0.04/kWh
-- **Kazakhstan**: Coal power (environmentally problematic) = \$0.03/kWh
-- **Norway**: Hydroelectric abundance = \$0.02-0.03/kWh
+- **Iceland**: Geothermal power + natural cooling = USD 0.03/kWh
+- **Texas, USA**: Wind power surplus at night = USD 0.02-0.04/kWh
+- **Kazakhstan**: Coal power (environmentally problematic) = USD 0.03/kWh
+- **Norway**: Hydroelectric abundance = USD 0.02-0.03/kWh
 
-Compare this to residential electricity in California at \$0.30/kWh, and you understand why nobody mines Bitcoin in San Francisco!
+Compare this to residential electricity in California at USD 0.30/kWh, and you understand why nobody mines Bitcoin in San Francisco!
 
 ### Our Analysis Framework
 
 For this study, we use **U.S. commercial electricity rates** as our baseline. Why?
 1. The U.S. has become the largest Bitcoin mining hub (35% of global hashrate)
-2. Commercial rates (\$0.08-0.12/kWh) represent what professional miners actually pay
+2. Commercial rates (USD 0.08-0.12/kWh) represent what professional miners actually pay
 3. Data from the U.S. Energy Information Administration is reliable and consistent
 
 This gives us a realistic "middle ground" for our calculations—not the cheapest possible mining, but not the most expensive either.
@@ -336,12 +336,12 @@ $$ \text{Cost Of Mining A Single Bitcoin}(USD) = \frac{ \frac{\text{Power Consum
 **Let's break this down with a real example:**
 - Network uses: 12.5 GW of power
 - Daily energy: 12.5 GW × 24 hours = 300,000,000 kWh
-- Electricity cost: \$0.10/kWh
-- Daily electricity bill: 300,000,000 × \$0.10 = \$30,000,000
+- Electricity cost: USD 0.10/kWh
+- Daily electricity bill: 300,000,000 × USD 0.10 = USD 30,000,000
 - Daily Bitcoin mined: 450 BTC (rewards) + 50 BTC (fees) = 500 BTC
-- **Cost per Bitcoin: \$30,000,000 ÷ 500 = \$60,000**
+- **Cost per Bitcoin: USD 30,000,000 ÷ 500 = USD 60,000**
 
-This \$60,000 represents the fundamental production cost—the absolute minimum price at which mining remains profitable.
+This USD 60,000 represents the fundamental production cost—the absolute minimum price at which mining remains profitable.
 
 ![alt text](./images/miningcost1.png)
 
@@ -387,9 +387,9 @@ It is important to note that unforeseen events ("Black Swan" events), such as Ch
 - Model accuracy decreases 30-40% for 3-6 months post-halving as markets recalibrate
 
 **Transaction Fee Spikes**: Periodic surges in transaction fees create temporary but significant deviations from baseline mining costs:
-- **Ordinals/BRC-20 Launch (Feb-May 2023)**: Fees spiked from \$1.50 to \$30 average per transaction, increasing miner revenue by 40% for 12 weeks. Our model underestimated mining costs by 35% during this period
-- **DeFi Peak (April-May 2021)**: Average fees reached \$62, adding \$50M daily to miner revenue. Energy cost per Bitcoin dropped 60% below model predictions
-- **December 2017 Bubble**: Fees hit \$55 average, creating a 70% model deviation lasting 6 weeks
+- **Ordinals/BRC-20 Launch (Feb-May 2023)**: Fees spiked from USD 1.50 to USD 30 average per transaction, increasing miner revenue by 40% for 12 weeks. Our model underestimated mining costs by 35% during this period
+- **DeFi Peak (April-May 2021)**: Average fees reached USD 62, adding USD 50M daily to miner revenue. Energy cost per Bitcoin dropped 60% below model predictions
+- **December 2017 Bubble**: Fees hit USD 55 average, creating a 70% model deviation lasting 6 weeks
 - These spikes reduce model accuracy by 25-50% but typically normalize within 2-8 weeks as users migrate to Layer 2 solutions or competing chains
 
 ![alt text](./images/powerconsumptionforecast1.png)
