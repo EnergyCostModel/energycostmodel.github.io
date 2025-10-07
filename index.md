@@ -39,6 +39,7 @@ is a work in progress. We are continuously updating and improving the model, and
 |18 Jul 2025  | Data Update |
 |2 Aug 2025  | Data Update |
 |5 Sep 2025  | Educational restructuring with FreeYoda feedback |
+|7 Oct 2025 | Data Update |
 
 **Please note that this analysis is for educational purposes only and should never be treated as financial advice.**
 
